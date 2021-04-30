@@ -4,6 +4,7 @@
   "description": "A social media application that uses the MERN(G) Stack. This application serves to further improve my knowledge in this tech stack as well as introduce me to GraphQL.",
   "main": "index.js",
   "scripts": {
+    "serve": "node index",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index"
   },

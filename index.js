@@ -1,4 +1,4 @@
-const { ApolloServer, PubSub } = require('apollo-server-express'); //
+const { ApolloServer, PubSub } = require('apollo-server'); //
 const mongoose = require('mongoose');
 
 const {MONGODB} = require('./config/prod-config')

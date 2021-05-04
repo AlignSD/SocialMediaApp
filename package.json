@@ -12,10 +12,6 @@
     "client": "cd client && npm start",
     "dev": "concurrently -n 'server,client' -c 'red,green'  \"nodemon index.js\" \"npm run client\""
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AlignSD/SocialMediaApp.git"
-  },
   "keywords": [
     "social",
     "media",

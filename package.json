@@ -4,9 +4,13 @@
   "description": "A social media application that uses the MERN(G) Stack. This application serves to further improve my knowledge in this tech stack as well as introduce me to GraphQL.",
   "main": "index.js",
   "scripts": {
-    "serve": "node index",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index"
+    "build": "cd client && npm run build",
+    "install-client": "cd client && npm install",
+    "heroku-postbuild": "npm run install-client && npm run build",
+    "start": "node index.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently -n 'server,client' -c 'red,green'  \"nodemon index.js\" \"npm run client\""
   },
   "repository": {
     "type": "git",

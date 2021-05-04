@@ -105,3 +105,6 @@ dist
 
 # Config.js for development
 /config/dev-config.js
+
+# .env
+.env

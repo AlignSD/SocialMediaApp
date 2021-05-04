@@ -103,5 +103,5 @@ dist
 # TernJS port file
 .tern-port
 
-# Config.js
-config.js
+# Config.js for development
+/config/dev-config.js

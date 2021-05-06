@@ -1,7 +1,10 @@
 const { ApolloServer, PubSub } = require('apollo-server'); //
 const mongoose = require('mongoose');
+const express = require('express');
+const path = require('path');
 require('dotenv').config()
 
+const app = express();
 
 const MONGODB = process.env.MONGODB
 const resolvers = require('./graphql/resolvers')
@@ -17,6 +20,12 @@ const server = new ApolloServer({
   context: ({ req }) => ({ req, pubsub })
 });
 
+app.use(express.static('public'));
+
+app.get('*', (req, res) => {
+  res.sendFile(path.resolve(__dirname, 'public', 'index.html'));
+})
+
 mongoose.connect(MONGODB, { useNewUrlParser: true, useUnifiedTopology: true})
   .then(() => {
     return server.listen({port: port});
@@ -28,3 +37,4 @@ mongoose.connect(MONGODB, { useNewUrlParser: true, useUnifiedTopology: true})
     console.error(err)
   })
 
+  

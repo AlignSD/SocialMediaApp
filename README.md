@@ -45,7 +45,7 @@ The app uses the following technologies:
 
 # Images
 
-<img align="left" width="800px" height='600px' src="./public/assets/images/social-media-app-home-page.png"></img>
+<img align="left" width="800px" height='600px' src="./public/assets/images/social-media-app-home-page.png">Home Page</img>
 
 * Home Page
 

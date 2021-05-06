@@ -18,8 +18,6 @@ const server = new ApolloServer({
   context: ({ req }) => ({ req, pubsub })
 });
 
-await server.start();
-
 const app = express();
 
 app.use(express.static('public'));

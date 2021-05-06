@@ -6,7 +6,7 @@ import { setContext } from 'apollo-link-context';
 
 const httpLink = createHttpLink({
   // uri: "http://localhost:5000" for dev
-  uri: '/graphql'
+  uri: 'https://social-media-merng-app.herokuapp.com'
 });
 
 const authLink = setContext(() => {

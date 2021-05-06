@@ -1,10 +1,8 @@
-const { ApolloServer, PubSub } = require('apollo-server'); //
+const { ApolloServer, PubSub } = require('apollo-server-express'); //
 const mongoose = require('mongoose');
 const express = require('express');
 const path = require('path');
 require('dotenv').config()
-
-const app = express();
 
 const MONGODB = process.env.MONGODB
 const resolvers = require('./graphql/resolvers')
@@ -20,18 +18,25 @@ const server = new ApolloServer({
   context: ({ req }) => ({ req, pubsub })
 });
 
+await server.start();
+
+const app = express();
+
 app.use(express.static('public'));
 
 app.get('*', (req, res) => {
   res.sendFile(path.resolve(__dirname, 'public', 'index.html'));
 })
 
+server.applyMiddleware({ app, path: '/graphql'});
 mongoose.connect(MONGODB, { useNewUrlParser: true, useUnifiedTopology: true})
   .then(() => {
-    return server.listen({port: port});
+    return app.listen({port: port});
   })
   .then(({ url }) => {
     console.log(`Server Running At ${url}`)
+    return { server , app }
+
   })
   .catch(err => {
     console.error(err)

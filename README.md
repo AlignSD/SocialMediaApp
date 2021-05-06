@@ -5,6 +5,16 @@
 
 A social media application using the MERNG stack. This application will server to better my knowledge with the MERN stack as well as an introduction to GraphQL.
 
+# Images
+
+<img align="left" width="800px" height='600px' src="./public/assets/images/social-media-app-home-page.png"></img>
+
+* Home Page
+
+<img align="left" width="800px" height='800px' src="./public/assets/images/social-media-app-comment-page.png"></img>
+
+* Comment Page
+
 # Table of Contents
 
 * [Link](#Link)
@@ -43,15 +53,6 @@ The app uses the following technologies:
 * [NodeJS](https://nodejs.org/en/) is used for the server side of the application.
 * [Apollo-GraphQL](https://www.apollographql.com/docs/)
 
-# Images
-
-<img align="left" width="800px" height='600px' src="./public/assets/images/social-media-app-home-page.png">Home Page</img>
-
-* Home Page
-
-<img align="left" width="800px" height='600px' src="./public/assets/images/social-media-app-comment-page.png"></img>
-
-* Comment Page
 # License
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

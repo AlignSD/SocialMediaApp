@@ -45,14 +45,12 @@ The app uses the following technologies:
 
 # Images
 
-<img align="left" width="800px" height='800px' src="./public/assets/images/social-media-app-home-page.png"></img>
+<img align="left" width="800px" height='600px' src="./public/assets/images/social-media-app-home-page.png"></img>
 
-![Home-Page](./public/assets/images/social-media-app-home-page.png)
 * Home Page
 
-<img align="left" width="800px" height='800px' src="./public/assets/images/social-media-app-comment-page.png"></img>
+<img align="left" width="800px" height='600px' src="./public/assets/images/social-media-app-comment-page.png"></img>
 
-![Comment-Page](./public/assets/images/social-media-app-comment-page.png)
 * Comment Page
 # License
 

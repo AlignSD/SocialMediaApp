@@ -1,9 +1,18 @@
+# Table of Contents
 
+* [Title](#SocialMediaApp)
+* [Images](#Images)
+* [Live-Link](#Live-Link)
+* [Motivation](#Motivation)
+* [Skills-Used](#Skills-Used)
+* [Description](#Description)
+* [License](#License)
 
 
 # SocialMediaApp
 
 A social media application using the MERNG stack. This application will server to better my knowledge with the MERN stack as well as an introduction to GraphQL.
+
 
 # Images
 
@@ -15,21 +24,15 @@ A social media application using the MERNG stack. This application will server t
 
 * Comment Page
 
-# Table of Contents
-
-* [Link](#Link)
-* [Motivation](#Motivation)
-* [Skills-Used](#Skills-Used)
-* [Description](#Description)
-* [Images](#Images)
-* [License](#License)
 
 # Link
 [https://social-media-merng-app.herokuapp.com/](https://social-media-merng-app.herokuapp.com/)
 
+
 # Motivation
 
 I wanted to further my understanding of building a full-stack MERN application. This project also introduced me to GraphQL and how it is used in a real world setting. I didn't expect to learn as much as I did from this project but the complexity of creating something like this is actually pretty surprising. This project also helped fortify my knowledge of JS and React pretty well which I was surprised by. Things like destructuring, useState and useContext were used quite a bit throughout this project which are very important topics to understand and while I was comfortable before with using them I feel like I understand them much better now.
+
 
 # Skills-Used
 
@@ -43,6 +46,7 @@ I wanted to further my understanding of building a full-stack MERN application. 
 *  Store users and user data (comments, likes, etc) in a Mongoose DB
 *  Link client and server side application to a Heroku deployment
 
+
 # Description
 
 The app uses the following technologies:
@@ -52,6 +56,7 @@ The app uses the following technologies:
 * [MongoDB Atlas](https://docs.mongodb.com/manual/) is used in the backend to post and recieve inform from our database.
 * [NodeJS](https://nodejs.org/en/) is used for the server side of the application.
 * [Apollo-GraphQL](https://www.apollographql.com/docs/)
+
 
 # License
 

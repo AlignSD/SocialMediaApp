@@ -1,9 +1,9 @@
 # Table of Contents
 
 * [Title](#SocialMediaApp)
+* [Motivation](#Motivation)
 * [Images](#Images)
 * [Live-Link](#Live-Link)
-* [Motivation](#Motivation)
 * [Skills-Used](#Skills-Used)
 * [Description](#Description)
 * [License](#License)
@@ -11,8 +11,9 @@
 
 # SocialMediaApp
 
-A social media application using the MERNG stack. This application will server to better my knowledge with the MERN stack as well as an introduction to GraphQL.
+# Motivation
 
+I wanted to further my understanding of building a full-stack MERN application. This project also introduced me to GraphQL and how it is used in a real world setting. I didn't expect to learn as much as I did from this project but the complexity of creating something like this is actually pretty surprising. This project also helped fortify my knowledge of JS and React pretty well which I was surprised by. Things like destructuring, useState and useContext were used quite a bit throughout this project which are very important topics to understand and while I was comfortable before with using them I feel like I understand them much better now.
 
 # Images
 
@@ -25,13 +26,8 @@ A social media application using the MERNG stack. This application will server t
 * Comment Page
 
 
-# Link
+# Live-Link
 [https://social-media-merng-app.herokuapp.com/](https://social-media-merng-app.herokuapp.com/)
-
-
-# Motivation
-
-I wanted to further my understanding of building a full-stack MERN application. This project also introduced me to GraphQL and how it is used in a real world setting. I didn't expect to learn as much as I did from this project but the complexity of creating something like this is actually pretty surprising. This project also helped fortify my knowledge of JS and React pretty well which I was surprised by. Things like destructuring, useState and useContext were used quite a bit throughout this project which are very important topics to understand and while I was comfortable before with using them I feel like I understand them much better now.
 
 
 # Skills-Used
